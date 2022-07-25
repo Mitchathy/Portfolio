@@ -6,11 +6,11 @@ export default function Profile() {
             <div className='profile-parent'>
                 <div className='profile-details'>
                     <div className='colz'>
-                        <a href='#'>
+                        <a href='https://github.com/Mitchathy'>
                             <i className='fa fa-github'>
                             </i>
                         </a>
-                        <a href='#'>
+                        <a href='https://www.linkedin.com/in/mitchell-walker-b66698104/'>
                             <i className='fa fa-linkedin'>
                             </i>
                         </a>
