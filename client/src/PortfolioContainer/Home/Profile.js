@@ -1,11 +1,12 @@
 import React from 'react'
+import './Profile.css'
 
 export default function Profile() {
     return (
         <div className='profile-container'>
             <div className='profile-parent'>
                 <div className='profile-details'>
-                    <div className='colz'>
+                    <div className='icons'>
                         <a href='https://github.com/Mitchathy'>
                             <i className='fa fa-github'> </i>
                         </a>
@@ -19,11 +20,13 @@ export default function Profile() {
                             Hello, I'm <span className='highlighted-text'>Mitch</span>
                         </span>
                     </div>
+                    <div className='Resume'>
                         <a href='Mitchell-Walker-resume(1).pdf' download='Mitchell Walker resume.pdf'>
-                            <button>
+                            <button className='Resume'>
                                  Download Resume
                             </button>
                         </a>
+                    </div>
                 </div>
             </div>
 
