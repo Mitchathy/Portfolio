@@ -17,10 +17,10 @@ export default function Profile() {
                     </div>
                     <div className="profile-details-name">
                         <span className='primary-text'>
-                            Hello, I'm <span className='highlighted-text'>Mitch</span>
+                            Hello, I'm <span className='highlighted-text'>Mitchell</span>
                         </span>
                     </div>
-                    <div className='Resume'>
+                    <div className='DwnResume'>
                         <a href='Mitchell-Walker-resume(1).pdf' download='Mitchell Walker resume.pdf'>
                             <button className='Resume'>
                                  Download Resume
