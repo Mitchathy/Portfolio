@@ -1,3 +1,8 @@
 .ProjectsContainer{
     background-color: rgb(86, 85, 85);
+    margin: 5%;
+}
+.Projects{
+    background-color: rgb(137, 123, 106);
+    border-radius: 70%;
 }
