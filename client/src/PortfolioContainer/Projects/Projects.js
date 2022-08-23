@@ -13,20 +13,20 @@ export default function Projects() {
                             <i className='fa fa-github'> </i>
                                 </a>
                             <a href='https://nasa-photo-of-the-3mmm4jozo-eagleye1144.vercel.app/'>App</a>
-                                <button>Show Explanation</button>
+                                <button className='Nasa'>Show Explanation</button>
                                  </div>
                     <div className='project2'>Water my Plants
                         <a href='https://github.com/Bulid-Week-Water-My-Plants/back-end'>
                             <i className='fa fa-github'> </i>
                                 </a>
-                                <button>Show Explanation</button>
+                                <button className='Water'>Show Explanation</button>
                                  </div>
                     <div className='project3'>Secret Family recipes
                         <a href='https://github.com/secretFamiltRecipiesCookbook/frontEnd'>
                             <i className='fa fa-github'> </i>
                                 </a>
                                     <a href='https://secret-recipes-gold.vercel.app/'>App</a>
-                                    <button>Show Explanation</button>
+                                    <button className='Recipe'>Show Explanation</button>
                                         </div>
             </div>
        </div> 
