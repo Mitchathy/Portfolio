@@ -13,7 +13,7 @@ export default function ProjectExplanation(props) {
 
     return (
         <div className= "ProjectInfo">
-            {showText && <div>{project.explanation}</div>}
+            {showText && <div className="Explanation">{project.explanation}</div>}
             <button onClick={toggleText}>
                 {!showText ? 'Show Explanation' : 'Hide Explanation'}
                 </button>
