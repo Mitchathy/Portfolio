@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export default function ProjectExplanation(props) {
     const {project} = props
-    
+    console.log(project)
     const [showText, setShowText] = useState(false)   
 
         const toggleText = () =>{
