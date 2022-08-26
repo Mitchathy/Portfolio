@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export default function ProjectExplanation(props) {
     const {project} = props
-    console.log(project)
+
     const [showText, setShowText] = useState(false)   
 
         const toggleText = () =>{
@@ -13,9 +13,9 @@ export default function ProjectExplanation(props) {
 
     return (
         <div className= "ProjectInfo">
-            {showText && <div>{project}</div>}
+            {showText && <div>{project.explanation}</div>}
             <button onClick={toggleText}>
-                {showText ? 'Show Explanation' : 'Hide Explanation'}
+                {!showText ? 'Show Explanation' : 'Hide Explanation'}
                 </button>
         </div>
     )

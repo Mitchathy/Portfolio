@@ -24,14 +24,14 @@ export default function Projects() {
                         <a href='https://github.com/Bulid-Week-Water-My-Plants/back-end'>
                             <i className='fa fa-github'> </i>
                                 </a>
-                                <button className='Water' onClick = {explanationData[1]}>Show Explanation</button>
+                                <ProjectExplanation project ={explanationData[1]}/>
                                  </div>
                     <div className='project3'>Secret Family recipes
                         <a href='https://github.com/secretFamiltRecipiesCookbook/frontEnd'>
                             <i className='fa fa-github'> </i>
                                 </a>
                                     <a href='https://secret-recipes-gold.vercel.app/'>App</a>
-                                    <button className='Recipe' onClick = {explanationData[2]}>Show Explanation</button>
+                                    <ProjectExplanation project ={explanationData[2]}/>
                                         </div>
             </div>
        </div> 
