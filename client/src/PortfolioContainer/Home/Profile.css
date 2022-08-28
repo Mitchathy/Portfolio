@@ -35,9 +35,15 @@
     color:blanchedalmond;
     box-shadow: 2px 2px 1px white;
 }
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
 .icons i{
     margin: 5%;
-    padding: 2%; 
+    padding: 2%;
 }
 .icons i:hover{
     transform: scale(1.5);
