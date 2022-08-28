@@ -14,9 +14,10 @@
 }
 img{
     height: 5rem;
+    margin: 2%;
     display: flex;
-    justify-content: right;
-    align-items: right;
+    justify-content: center;
+    align-items: center;
 }
 .Explanation{
     color: white
