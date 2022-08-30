@@ -1,7 +1,6 @@
 import React from 'react'
 import './Projects.css'
 import explanationData from './ExplanationData'
-import { useState } from 'react'
 import ProjectExplanation from './ProjectExplanation'
 export default function Projects() {
     console.log(explanationData[0])
