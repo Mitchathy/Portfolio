@@ -21,7 +21,7 @@ export default function Profile() {
                         </span>
                     </div>
                     <div className='DwnResume'>
-                        <a href='Mitchell-Walker-resume (3).pdf' download='Mitchell Walker resume.pdf'>
+                        <a href='Mitchell-Walker-resume2023.pdf' download='Mitchell Walker resume.pdf'>
                             <button className='Resume'>
                                  Download Resume
                             </button>
